@@ -1,0 +1,15 @@
+sudo is probably the most used command in Ubuntu.
+
+In this post, I will show you how to make ‘sudo’ display funny and humorous error messages in Ubuntu Linux.
+
+To do that, you would only need to edit the /etc/sudoers :
+
+sudo nano /etc/sudoers
+
+Then find the line that starts with Defaults env_reset, add insults at the end of the line so it would look like this:
+
+# See the man page for details on how to write a sudoers file
+#
+Defaults env_reset, insults
+
+Save the file, and you are done! You can test the results by running the sudo command and entering the wrong password.
