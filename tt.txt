@@ -13,3 +13,5 @@ Then find the line that starts with Defaults env_reset, add insults at the end o
 Defaults env_reset, insults
 
 Save the file, and you are done! You can test the results by running the sudo command and entering the wrong password.
+
+example image is added with this file .
