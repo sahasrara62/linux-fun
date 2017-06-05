@@ -1,8 +1,10 @@
 here i am writing a method / way to shorten the directory path in the linux terminal / konsole to more compact one.
 here instead of showing the whole directory path as  "<user name>@/Document/folder1/folder2/folder3/folder4"  this code will show 
-it into as current user working directory as "<user name>:folder4"
+ it into as current user working directory as "<user name>:folder4"
 
 step to achive this is:
+
+
 1. open the terminal in your ubuntu system .
 2.  now run the command:
                             gedit  ~/.bashrc
