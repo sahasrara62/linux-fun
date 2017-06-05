@@ -22,3 +22,4 @@ step to achive this is:
 now you can enjoy the experience on working on terminal / konsole.
 		  
                           
+by prashant rana
