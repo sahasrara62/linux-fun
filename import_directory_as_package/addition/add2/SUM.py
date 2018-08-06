@@ -18,15 +18,15 @@ class Add:
 	
 	
 	def sum(self,*args):
-
-	''' for faster excecution .this is functioning same as 
-	          	for i in args:
-			     self.addition(i)
-   	 but used method is much faster than above one which isusing for loop.
-	 see list comprehension  for details.'''
-		
-		[ self._addition(i) for i in args]
-		return self.ans  '''giving the value of ans variable .ie total sum of input. '''
+	    ''' for faster excecution .this is functioning same as 
+	            for i in args:
+	                self.addition(i)
+	    but used method is much faster than above one which isusing for loop.
+	    see list comprehension  for details.
+	    '''
+	    [ self._addition(i) for i in args]
+	    return self.ans  
+	    '''giving the value of ans variable .ie total sum of input. '''
 	
 	def _addition(self,i):
 		
